@@ -1,0 +1,287 @@
+.anim1{
+    z-index: -1;
+    position: absolute;
+    top: 10rem;
+    left: 0;
+    width: 20rem;
+    height: 20rem;
+}
+
+@keyframes slidein {
+    0% {
+    width : 24rem;
+    height : 24rem;
+    transform : translateY(0%);
+    filter : blur(0);
+    }
+    50% {
+    width : 26rem;
+    height : 26rem;
+    transform : translateY(30%);
+    transition : all 200ms ease-in-out;
+    filter : blur(0.5rem);
+    }
+    100% {
+    width : 24rem;
+    height : 24rem;
+    filter : blur(0);
+    transform : translateY(0%);
+    }
+    }
+
+    
+    .logo{
+        animation: slideb linear infinite 1.4s;
+
+        z-index: -1;
+        position: absolute;
+        top: 56rem;
+        left: 10%;
+        width: 10rem;
+        height: 10rem;
+        box-shadow : 1px 1px 21px 1px rgb(231, 231, 233);
+        border-radius : 100%;
+    }
+    .logob {
+            animation: slidea linear infinite 1.4s;
+
+            z-index: -1;
+            position: absolute;
+            top: 50rem;
+            left: 50%;
+            width: 10rem;
+            height: 10rem;
+            box-shadow : 1px 1px 21px 1px rgb(231, 231, 233);
+            border-radius : 100%;
+        }
+        .logoc {
+            animation: slidea linear infinite 1.4s;
+
+            z-index: -1;
+            position: absolute;
+            top: 10rem;
+            left: 90%;
+            width: 10rem;
+            height: 10rem;
+            box-shadow : 1px 1px 21px 1px rgb(231, 231, 233);
+            border-radius : 100%;
+        }
+        .logod {
+            animation: slidea linear infinite 1.4s;
+
+            z-index: -1;
+            position: absolute;
+            top: 40rem;
+            left: 80%;
+            width: 10rem;
+            height: 10rem;
+            box-shadow : 1px 1px 21px 1px rgb(231, 231, 233);
+            border-radius : 100%;
+        }
+        .logoe {
+            animation: slideb linear infinite 1.4s;
+
+            z-index: -2;
+            position: absolute;
+            top: 10rem;
+            left: 10%;
+            width: 10rem;
+            height: 10rem;
+            box-shadow : 1px 1px 21px 1px rgb(231, 231, 233);
+            border-radius : 100%;
+        }
+        @keyframes slideb {
+            0% {
+            width : 10rem;
+            height : 10rem;
+            transform : translateX(0%);
+            filter : blur(1.5rem);
+            }
+            50% {
+            width : 13rem;
+            height : 13rem;
+            transform : translateX(30%);
+            transition : all 200ms ease-in-out;
+            filter : blur(0);
+            }
+            100% {
+            width : 11rem;
+            height : 11rem;
+            filter : blur(1.5rem);
+            transform : translateX(0%);
+            }
+        }
+        @keyframes slidea {
+                0% {
+                width : 10rem;
+                height : 10rem;
+                transform : translateY(0%);
+                filter : blur(0);
+                }
+                50% {
+                width : 13rem;
+                height : 13rem;
+                transform : translateY(30%);
+                transition : all 200ms ease-in-out;
+                filter : blur(1.5rem);
+                }
+                100% {
+                width : 11rem;
+                height : 11rem;
+                filter : blur(Orem);
+                transform : translateY(0%);
+                }
+            }
+        @keyframes blur{
+    from{
+    opacity: 1;
+    }
+    to{
+    
+    opacity:0;
+    }
+            }
+            .appear{
+                transition: all ease-in-out .3s;
+                display: none;
+                z-index: 1;
+                position: absolute;
+                top: 5.4rem;
+                left: 0rem;
+                width: 30rem;
+                height: 20rem;
+                background-color:#ffffff ;
+            }
+            .appeara{
+                transition: all ease-in-out .3s;
+                z-index: 1;
+                position: absolute;
+                top: 5.4rem;
+                left: 0rem;
+                width: 30rem;
+                height: 20rem;
+                background-color:#ffffff ;
+            }
+            .appearb{
+                transition: all ease-in-out .3s;
+                display: none;
+                z-index: 1;
+                position: absolute;
+                top: 5.4rem;
+                left: 20rem;
+                width: 30rem;
+                height: 10rem;
+                background-color:#ffffff ;
+            }
+            .appearba{
+                transition: all ease-in-out .3s;
+                z-index: 1;
+                position: absolute;
+                top: 5.4rem;
+                left: 20rem;
+                width: 30rem;
+                height: 10rem;
+                background-color:#ffffff ;
+            }
+            
+            .appear p,.appearb p,.appeara p , .appearba p{
+                cursor: pointer;
+                color: blueviolet;
+                transition: all ease-in-out .3s;
+            
+                text-align: center;
+                line-height: 5rem;
+                background-color: #ffffff;
+                width: 100%;
+                font-size: 1.4rem;
+            }
+            
+            .appeara p:hover,.appearba p:hover{
+            
+                background-color: #aa8fd8;
+                transition: all ease-in-out .3s;
+            
+            }
+                
+
+            .diva_active{
+                animation: blur linear  .4s;
+
+                z-index: 0;
+                
+                transition:all ease-in-out 0.1s;
+                z-index: 1;
+                opacity: 0;
+                width: 60rem;
+                height: 35rem;
+                background-color: #fff;
+                margin: 5rem auto;
+                border-radius: 2rem;
+            }
+
+@keyframes tra{
+    0%{
+        border-bottom: 5rem solid #aa8fd8;
+        transition: 0.3s;
+    }
+    33%{
+        background-color: transparent;
+        transition: 0.3s;
+
+
+    }
+    100%{
+        background-color: transparent;
+        transition: 0.3s;
+
+
+    }
+}
+@keyframes trb{
+    0%{
+      background-color: transparent;
+      transition: 0.3s;
+
+    }  
+
+    33%{
+        border-bottom: 5rem solid #aa8fd8;
+        transition: 0.3s;
+
+    }
+    100%{
+        background-color: transparent;
+
+        transition: 0.3s;
+
+    }
+}
+@keyframes trc{
+    0%{
+        background-color: transparent;
+        transition: 0.3s;
+
+    }
+    33%{
+        background-color: transparent;
+
+        transition: 0.3s;
+
+    }
+    100%{
+        border-bottom: 5rem solid #aa8fd8;
+        transition: 0.3s;
+
+    }
+}
+
+
+.slide_1{
+    animation:  tra 0.4s linear infinite;
+}
+.slide_2{
+    animation:  trb 0.4s linear infinite;
+}
+.slide_3{
+    animation:  trc 0.4s linear infinite;
+}

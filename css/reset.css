@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+html{
+    font-size: 62.5%;
+}
+
+body{
+    position: relative;
+    font-family: 'Audiowide', cursive;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);    
+        font: 1.6rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+        margin: 0;
+}
+
+h1,h2,h3,p,ul,ol,th,figure{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    font-weight: 400;
+}
+.uno{
+    width: 100%;
+    height:90rem;
+}
+
+*{
+        box-sizing: border-box;
+}
+
+:root {
+    --un-color: #52cffe;
+    --deux-color:#5ffbf1;
+    --trois-color:#d16ba5;    
+}
+.diva{
+    transform: translateX(0);
+    z-index: 0;
+    transition:all ease-in-out 0.2s;
+    z-index: 1;
+    opacity: 1;
+    width: 60rem;
+    height: 35rem;
+    background-color: #fff;
+    margin: 5rem auto;
+    border-radius: 2rem;
+
+}
+
+.img{
+    display: inline-block;
+    width: 30rem;
+    height: 25rem;
+    margin:0;
+
+}
+.text{
+    float: left;
+    display: inline-block;
+    width: 30rem;
+    height: 25rem;
+    background-color: rgb(238, 238, 238);
+}
+.button{
+    width: 50%;   
+     height: 6rem;
+     background-color: blueviolet;
+     margin: 1.5rem auto ;
+     border-radius: 2rem;
+
+
+}
+.buta{
+    transition: all ease-in-out .3s;
+
+    font-family: 'Audiowide', cursive;
+    border-radius: 2rem;
+    color: white;
+    margin: 2rem 25% ;
+    width: 50%;
+    height: 5rem;
+    font-size: 1.5rem;
+    border: none;
+    background-color: blueviolet;
+    box-shadow: 12px 12px 21px 1px rgba(0, 0, 255, .2);
+
+}
+.alllogo{
+    display: block;
+}
+.alllogo_none{
+  opacity: 0;
+  width: 0;
+  height: 0;
+  transition: 0.3s;
+}
+.img p{
+    margin: 7rem 1rem  ;
+    text-align: center;
+    font-size: 2rem;
+}
+.text img{
+    background-color: blueviolet;
+
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  li:first-child{
+    margin-left: -1rem;
+
+  }
+  
+  li a {
+    transition: all ease-in-out .3s;
+    font-size: 2rem;
+    display: block;
+    color: blueviolet;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ 
+ li a:hover{
+    transition: all ease-in-out .3s;
+    background-color: #79b3f4;
+ }
+
+.buta:hover{
+    transition: all ease-in-out .3s;
+
+    background-color: white;
+    color: blueviolet;
+}
+.intro{
+opacity: 0;
+    border-radius: 5rem;
+    position: absolute;
+    width: 40rem;
+    height: 10rem;
+    top: 15rem;
+    left: 30%;
+    background-color: #fff;
+}
+.intro_appear{
+            transition: all ease-in-out .3s;
+            opacity: 1;
+    border-radius: 5rem;
+    position: absolute;
+    width: 40rem;
+    height: 10rem;
+    top: 15rem;
+    left: 30%;
+    background-color: #fff;
+}
+.intro p,.intro_appear p{
+        transition: all ease-in-out .3s;
+    padding: 2rem 1rem;
+    text-align: center;
+    font-size: 2rem;
+
+}
+.img_work{
+    display: none;
+    transition: all ease-in-out .3s;
+
+    position: absolute;
+    width: 50rem;
+    height: 50rem;
+    top: 10rem;
+}
+.img_work_appear{
+    display: block;
+    transition: all ease-in-out .3s;
+
+    position: absolute;
+    width: 50rem;
+    height: 50rem;
+    top: 10rem;
+}
+.slide_1{
+    transform: rotate(180deg);
+    position: absolute;
+    left: 90%;
+    top: 10rem;
+    width: 10rem;
+    height: 5rem;
+    border-left: 5rem solid transparent;
+    border-right: 5rem solid transparent;
+    border-bottom: 5rem solid white;
+}
+.slide_2{
+    transform: rotate(180deg);
+    position: absolute;
+    left: 90%;
+    top: 14rem;
+    width: 10rem;
+    height: 5rem;
+    border-left: 5rem solid transparent;
+    border-right: 5rem solid transparent;
+    border-bottom: 5rem solid white;
+}
+.slide_3{
+    transform: rotate(180deg);
+    position: absolute;
+    left: 90%;
+    top: 18rem;
+    width: 10rem;
+    height: 5rem;
+    border-left: 5rem solid transparent;
+    border-right: 5rem solid transparent;
+    border-bottom: 5rem solid white;
+}
+
+.texte_sc{
+
+transform: rotate(90deg);
+position: absolute;
+top: 28%;
+left: 90.4%;
+
+
+}
+.texte_sc p{
+
+    font-weight: bolder;
+    font-size: 2rem;
+    text-transform: uppercase;
+
+}
+
+.triangles{
+    display: none;
+}
+
+
+.triangles_appear{
+    display: block;
+}
+.phrase1{
+    transition: all ease-in-out .3s;
+
+    opacity: 0;
+    border-radius: 5rem;
+    position: absolute;
+    width: 40rem;
+    height: 10rem;
+    top: 39rem;
+    left: 53%;
+    background-color: #fff;
+}
+.phrase1_appear{
+    transition: all ease-in-out .3s;
+
+    opacity: 1;
+    border-radius: 5rem;
+    position: absolute;
+    width: 40rem;
+    height: 10rem;
+    top: 39rem;
+    left: 53%;
+    background-color: #fff;
+}
+.phrase1 p,.phrase1_appear{
+    transition: all ease-in-out .3s;
+    padding: 2rem 1rem;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.phrase1:hover{
+    transition: all ease-in-out .3s;
+
+    width: 44rem;
+}
+.img_laptop{
+    transition: all ease-in-out .3s;
+
+    opacity: 0;
+    position: absolute;
+    top: 30%;
+    width: 30rem;
+    left: 76%;
+    
+}
+.img_laptop_appear{
+    transition: all ease-in-out .3s;
+
+    opacity: 1;
+    position: absolute;
+    top: 30%;
+    width: 30rem;
+    left: 76%;
+    
+}
+.cv{
+    transition: all ease-in-out .3s;
+
+    opacity: 0;
+    width: 10rem;
+    height: 50rem;
+    background-color: white;
+    margin: auto 0;
+}
+.cv_appear{
+    background-color: rgba(45, 155, 219, 0.459);
+    position: relative;
+    transition: all ease-in-out .6s;
+    opacity: 1;
+    border-radius: 1rem;
+    display: block;
+    width: 65rem;
+    height: 40rem;
+
+    margin: -30rem 1rem 0;
+}
+
+.cv_appear p{
+    padding: 1.5rem;
+
+    font-size:2.3rem;
+}
+
+.cv_appear img{
+    transition: all ease-in-out .6s;
+
+    position:absolute;
+width: 40rem;
+top: 02rem;
+margin: 0;
+
+}
+.cv_appear .secret{
+    display: inline;
+    transition: all ease-in-out .6s;
+
+opacity: 0; 
+  position: absolute;
+    left: 35rem;
+    top: 34rem;
+}
+.cv_appear .secret_white{
+    color: white;
+    opacity: 1; 
+    position: absolute;
+    left: 35rem;
+    top: 30rem;
+}
+.cv_appear .sun{
+    position:absolute;
+width: 10rem;
+top: 10rem;
+left: 50rem;
+margin: 0;
+}
+.ccv{
+    top: 100rem;
+    left: 100rem;
+    position: absolute;
+    width: 60rem;
+    background-color: #ffffff;
+    height: 90rem;
+
+}
